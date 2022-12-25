@@ -22,6 +22,7 @@ public class Main {
         wordCount = 0;
         
         }
+      
         else{
         wordCount++;
         
