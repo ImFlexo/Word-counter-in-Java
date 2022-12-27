@@ -24,6 +24,7 @@ public class Main {
         }
       
         else{
+          
         wordCount++;
         
         for(int i = 0; i < userInput.length(); i++){
