@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Enter your paragraph: ");
         String userInput = sc.nextLine();
         sc.close();
-        
+       
         userInput = userInput.trim();
         
         int wordCount = 0;
@@ -31,6 +31,7 @@ public class Main {
                 if(userInput.charAt(i) == ' ' && userInput.charAt(i + 1) != ' ') {
                 
                 wordCount++;
+                  
                 }
         
         }
